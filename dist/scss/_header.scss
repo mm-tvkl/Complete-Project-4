@@ -9,4 +9,21 @@ header{
         height: 100%;
         background-color: #444b50d8;
     }
+
+    .main-section{
+        .main-title{
+            font-weight: 500;
+        }
+    }
+}
+
+.m-input{
+    padding: 15px 10px;
+    padding-top: 18px;
+    margin: 15px 0px;
+}
+
+.m-input:focus{
+    box-shadow: none;
+    border-color: $color-blue-main;
 }

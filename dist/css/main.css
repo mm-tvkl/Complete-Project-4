@@ -7,22 +7,6 @@ nav .nav-item {
   font-size: 16px;
 }
 
-nav .btn-contact-us {
-  background-color: #7971ea;
-  color: white;
-  padding: 10px 20px 7px 20px;
-  border-radius: 200px;
-  transition: background-color 300ms;
-  -moz-transition: background-color 300ms;
-  -o-transition: background-color 300ms;
-  -webkit-transition: background-color 300ms;
-}
-
-nav .btn-contact-us:hover {
-  color: white;
-  background-color: #4f45e3;
-}
-
 header {
   height: 100vh;
   background-image: url("../img/image/header-img.png");
@@ -36,8 +20,48 @@ header .header-bg {
   background-color: #444b50d8;
 }
 
+header .main-section .main-title {
+  font-weight: 500;
+}
+
+.m-input {
+  padding: 15px 10px;
+  padding-top: 18px;
+  margin: 15px 0px;
+}
+
+.m-input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #7971ea;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   font-family: "vazir";
   background-color: #f1f1f1;
+}
+
+.btn-primary-color {
+  background-color: #7971ea;
+  color: white;
+  padding: 10px 20px 7px 20px;
+  border-radius: 200px;
+  font-size: 16px;
+  transition: background-color 300ms;
+  -moz-transition: background-color 300ms;
+  -o-transition: background-color 300ms;
+  -webkit-transition: background-color 300ms;
+}
+
+.btn-primary-color:hover {
+  color: white;
+  background-color: #4f45e3;
 }
 /*# sourceMappingURL=main.css.map */

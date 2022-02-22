@@ -4,7 +4,26 @@
 @import "./navbar";
 @import "./header";
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: "vazir";
     background-color: #f1f1f1;
+}
+
+.btn-primary-color{
+    background-color: $color-blue-main;
+    color: white;
+    padding: 10px 20px 7px 20px;
+    border-radius: 200px;
+    font-size: 16px;
+    @include transition(background-color 300ms);
+    &:hover{
+        color: white;
+        background-color: $color-blue-main-2;
+    }
 }

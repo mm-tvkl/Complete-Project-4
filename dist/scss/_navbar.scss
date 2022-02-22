@@ -2,15 +2,4 @@ nav{
     .nav-item{
         font-size: 16px;
     }
-    .btn-contact-us{
-        background-color: $color-blue-main;
-        color: white;
-        padding: 10px 20px 7px 20px;
-        border-radius: 200px;
-        @include transition(background-color 300ms);
-        &:hover{
-            color: white;
-            background-color: $color-blue-main-2;
-        }
-    }
 }
