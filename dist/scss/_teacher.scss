@@ -1,0 +1,70 @@
+.boxPos{
+    position: relative;
+}
+
+.boxPos img{
+    top: 200px;
+}
+
+.bg-hover-light-blue{
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        bottom: 0;
+        background-color: $color-blue-main-3;
+        @include transition(height 300ms)
+    }
+
+    &:hover.bg-hover-light-blue::before{
+        height: 100%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .pos-responsive{
+        top: -28%;
+    }
+}
+@media screen and (max-width:1199px) and (min-width:991px) {
+    .pos-responsive{
+        top: -20% !important;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+    .pos-responsive{
+        top: -22%;
+    }
+}
+@media screen and (max-width:768px) {
+    .pos-responsive{
+        top: -30%;
+        width: 30%;
+    }
+}
+@media screen and (max-width:550px) {
+    .pos-responsive{
+        top: -24%;
+        width: 30%;
+    }
+}
+@media screen and (max-width:450px) {
+    .pos-responsive{
+        top: -30%;
+        width: 40%;
+    }
+}
+@media screen and (max-width:400px) {
+    .pos-responsive{
+        top: -20%;
+        width: 40%;
+    }
+}
+@media screen and (max-width:330px) {
+    .pos-responsive{
+        top: -17%;
+        width: 50%;
+    }
+}
