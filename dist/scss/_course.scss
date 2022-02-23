@@ -20,13 +20,32 @@
     margin: 0px 3px;
 }
 
-.courseSection{
-    position: relative;
-}
 
 .card-Section{
-    position: absolute;
-    top: 40%;
+    margin-top: -15%;
+}
+@media screen and (max-width:1000px) {
+    .card-Section{
+        margin-top: -20%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .card-Section{
+        margin-top: -30%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .card-Section{
+        margin-top: -40%;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .card-Section{
+        margin-top: -60%;
+    }
 }
 
 .owl-stage{
