@@ -3,6 +3,7 @@
 @import "./font";
 @import "./navbar";
 @import "./header";
+@import "./course";
 
 *{
     margin: 0;
@@ -25,4 +26,13 @@ body{
         color: white;
         background-color: $color-blue-main-2;
     }
+}
+
+.text-primary-blue{
+    color: $color-blue-main-2;
+    font-size: 20px;
+}
+
+.text-primary-blue+p{
+    font-size: 16px;
 }
