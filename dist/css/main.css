@@ -98,6 +98,14 @@ header .main-section .main-title {
   padding-bottom: 100px;
 }
 
+.bg-icon-color-primary {
+  background-color: #7971ea;
+  padding: 10px;
+  padding-bottom: 14px;
+  border-radius: 50%;
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
