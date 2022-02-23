@@ -11,14 +11,13 @@
 }
 
 body{
-    font-family: "vazir";
+    font-family: 'PT Sans', sans-serif;
     background-color: #f1f1f1;
 }
 
 .btn-primary-color{
     background-color: $color-blue-main;
     color: white;
-    padding: 10px 20px 7px 20px;
     border-radius: 200px;
     font-size: 16px;
     @include transition(background-color 300ms);
