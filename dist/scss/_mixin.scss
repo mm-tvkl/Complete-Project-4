@@ -4,3 +4,10 @@
     -o-transition: $params;
     -webkit-transition: $params;
 }
+
+@mixin animation ($params...) {
+    animation: $params;
+    -moz-animation: $params;
+    -o-animation: $params;
+    -webkit-animation: $params;
+}

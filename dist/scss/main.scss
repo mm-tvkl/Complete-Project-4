@@ -42,3 +42,29 @@ body{
 .text-primary-blue+p{
     font-size: 16px;
 }
+
+.fixedNav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    @include transition(top 300ms);
+    @include animation(navbarGoingBottom 400ms);
+}
+
+.scrollyNav{
+    position: inherit;
+}
+
+.bg-third{
+    background-color: #dfdaff;
+}
+
+@keyframes navbarGoingBottom {
+    from {
+        top: -300px;
+    }
+    to {
+        top: 0;
+    }
+}

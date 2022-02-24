@@ -409,4 +409,45 @@ body {
 .text-primary-blue + p {
   font-size: 16px;
 }
+
+.fixedNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: top 300ms;
+  -moz-transition: top 300ms;
+  -o-transition: top 300ms;
+  -webkit-transition: top 300ms;
+  animation: navbarGoingBottom 400ms;
+  -moz-animation: navbarGoingBottom 400ms;
+  -o-animation: navbarGoingBottom 400ms;
+  -webkit-animation: navbarGoingBottom 400ms;
+}
+
+.scrollyNav {
+  position: inherit;
+}
+
+.bg-third {
+  background-color: #dfdaff;
+}
+
+@-webkit-keyframes navbarGoingBottom {
+  from {
+    top: -300px;
+  }
+  to {
+    top: 0;
+  }
+}
+
+@keyframes navbarGoingBottom {
+  from {
+    top: -300px;
+  }
+  to {
+    top: 0;
+  }
+}
 /*# sourceMappingURL=main.css.map */
