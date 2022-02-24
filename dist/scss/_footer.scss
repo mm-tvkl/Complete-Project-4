@@ -11,7 +11,7 @@
     a{
         text-decoration: none;
         font-size: 20px;
-        color: #b4b4b4;
+        color: #f3f3f3;
         position: relative;
         @include transition(color 300ms , margin-left 300ms);
         &::before{
