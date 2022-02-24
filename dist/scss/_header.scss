@@ -27,3 +27,27 @@ header{
     box-shadow: none;
     border-color: $color-blue-main;
 }
+
+@media screen and (max-width:768px) {
+    header{
+        height: 130vh;
+    }
+    .header-main-section{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-height:560px) {
+    header{
+        height: 160vh;
+    }
+    .header-main-section{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-height:500px) {
+    header{
+        height: 200vh;
+    }
+}
