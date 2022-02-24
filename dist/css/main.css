@@ -5,6 +5,7 @@ nav .nav-item {
 
 header {
   height: 100vh;
+  background-image: url("../img/image/header-img.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
