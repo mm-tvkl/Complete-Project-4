@@ -10,3 +10,13 @@
     height: 100%;
     background-color: #000000c5;
 }
+
+.img-responsive{
+    width: 100%;
+}
+
+@media screen and (max-width:575px) {
+    .img-responsive{
+        width: 40%;
+    }
+}
