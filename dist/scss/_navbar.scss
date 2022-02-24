@@ -1,5 +1,74 @@
-nav{
-    .nav-item{
-        font-size: 16px;
+.nav-link{
+    transition: color 300ms 100ms;
+    &:hover{
+        color: white !important;
+    }
+}
+.m-nav-item{
+    position: relative;
+}
+.m-nav-item::before{
+    content: "";
+    position: absolute;
+    width: 00%;
+    height: 2px;
+    top: 0;
+    left: 0;
+    background-color: $color-blue-main-2;
+    z-index: -1;
+}
+.nav-item:hover.nav-item::before{
+    animation: navItemAnimation 700ms forwards alternate;
+}
+
+.nav-item-leave.nav-item::before{
+    animation: navItemAnimation2 500ms forwards alternate;
+}
+
+@keyframes navItemAnimation{
+    0%{
+        width: 0%;
+        height: 3px;
+    }
+    25%{
+        width: 0%;
+        height: 3px;
+    }
+    50%{
+        width: 100%;
+        height: 3px;
+    }
+    75%{
+        width: 100%;
+        height: 3px;
+    }
+    100%{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@keyframes navItemAnimation2{
+    0%{
+        
+        width: 100%;
+        height: 100%;
+    }
+    25%{
+        
+        width: 100%;
+        height: 3px;
+    }
+    50%{
+        width: 100%;
+        height: 3px;
+    }
+    75%{
+        width: 0%;
+        height: 3px;
+    }
+    100%{
+        width: 0%;
+        height: 3px;
     }
 }

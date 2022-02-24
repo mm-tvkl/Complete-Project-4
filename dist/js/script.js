@@ -23,3 +23,20 @@ window.addEventListener("scroll", function () {
         myNavbar.classList.remove("p-3");
     }
 });
+
+var item1 = document.getElementById("items1");
+var item2 = document.getElementById("items2");
+var item3 = document.getElementById("items3");
+var item4 = document.getElementById("items4");
+function myFunction1(){
+    item1.classList.add("nav-item-leave");
+}
+function myFunction2(){
+    item2.classList.add("nav-item-leave");
+}
+function myFunction3(){
+    item3.classList.add("nav-item-leave");
+}
+function myFunction4(){
+    item4.classList.add("nav-item-leave");
+}
