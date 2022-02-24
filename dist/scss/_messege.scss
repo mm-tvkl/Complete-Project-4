@@ -1,0 +1,14 @@
+.m-form-control{
+    border: 2px solid $color-blue-main-2;
+}
+.m-form-control::placeholder{
+    color: $color-blue-main-2;
+}
+.m-form-control:focus{
+    box-shadow: none;
+    border: 2px solid $color-purple;
+}
+
+.m-form-control:focus.m-form-control::placeholder{
+    color: $color-purple;
+}
