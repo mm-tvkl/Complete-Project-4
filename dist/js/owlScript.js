@@ -9,6 +9,9 @@ $(document).ready(function () {
         responsiveClass: true,
         autoplayHoverPause:true,
         paddinStage:50,
+        autoplay:true,
+        autoplayTimeout:2000,
+        autoplayHoverPause:true,
         dots:false,
         navText:[
             prev,
