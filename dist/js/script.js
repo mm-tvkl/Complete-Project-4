@@ -5,7 +5,7 @@ window.addEventListener("scroll", function () {
     console.log(y);
     if (y > 200) {
         myNavbar.classList.add("fixedNav");
-        myNavbar.classList.remove("scrollyNav");
+        // myNavbar.classList.remove("scrollyNav");
         myNavbar.classList.add("bg-third");
         myNavbar.classList.remove("navbar-dark");
         myNavbar.classList.add("navbar-light");
@@ -14,7 +14,7 @@ window.addEventListener("scroll", function () {
         myNavbar.classList.add("p-3");
     } else if (y < 200) {
         myNavbar.classList.remove("fixedNav");
-        myNavbar.classList.add("scrollyNav");
+        // myNavbar.classList.add("scrollyNav");
         myNavbar.classList.remove("bg-third");
         myNavbar.classList.add("navbar-dark");
         myNavbar.classList.remove("navbar-light");
